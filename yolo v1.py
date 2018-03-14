@@ -25,7 +25,7 @@ while success:
 #can be configured for your own path/folder
 mypath='/home/idham/darkflow-trial/image/image2'
 
-#loading multiple frames into yolo model
+#loading multiple frames into tiny-yolo-voc model, model can be configured
 options = {"model": "cfg/tiny-yolo-voc.cfg", 
             "load": "tiny-yolo-voc.weights", 
             "threshold": 0.1}
