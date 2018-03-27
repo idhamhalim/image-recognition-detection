@@ -1,2 +1,2 @@
 # image-recognition-detection
-my attempt at automatic image recognition
+my attempt at automatic car frame recognition
