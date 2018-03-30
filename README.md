@@ -212,6 +212,21 @@ Install with pip globally
 set up crontab for automatic frame capture and filter frame with car by copy the content of crontab.txt and append it to your cron job.
 
 `sudo crontab -e` --> to configure cronjob
+
+
+### Setting up Python PATH
+
+append the darkflow packages to the python path
+`export PYTHONPATH:/your/path/to/darkflow/packages`
+
+for example mine is : `export PYTHONPATH: /usr/local/lib/python3.5/dist-packages/darkflow`
+
+you can check where darkflow packages is by trying to uninstall darkflow, but dont uninstall it
+
+`sudo pip uninstall darkflow`
+
+
+
 # References
 
 1. Thanks to the original author of darkflow and YOLO
