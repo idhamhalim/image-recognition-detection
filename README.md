@@ -15,6 +15,8 @@ git clone the repo
 
 `git clone https://github.com/thtrieu/darkflow`
 
+oor just clone this repo !!!
+
 # Install Dependencies for Darkflow
 
 python3 `sudo pip install python3`
