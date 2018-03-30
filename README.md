@@ -8,7 +8,7 @@ the link to the repo is here : https://github.com/thtrieu/darkflow
 
 git clone the repo
 
-'git clone https://github.com/thtrieu/darkflow'
+`git clone https://github.com/thtrieu/darkflow`
 
 # Install Dependencies for Darkflow
 
