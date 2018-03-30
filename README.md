@@ -198,6 +198,14 @@ Install with pip globally
  
  `python predictidham.py`
 
+
+# Advanced usage
+
+## Automating the process
+
+set up crontab for automatic frame capture and filter frame with car by copy the content of crontab.txt and append it to your cron job.
+
+`sudo crontab -e` --> to configure cronjob
 # References
 
 1. Thanks to the original author of darkflow and YOLO
