@@ -91,5 +91,11 @@ if you want to use `tiny-yolo-voc model`, then download `tiny-yolo-voc weights` 
 
 # References
 
-Thanks to the original author of darkflow and YOLO
+1. Thanks to the original author of darkflow and YOLO
 https://pjreddie.com/
+
+2. Thanks for the translated darkflow 
+https://github.com/thtrieu/darkflow
+
+3. Thanks to the author for process of installing OpenCV on Ubuntu
+https://www.learnopencv.com/install-opencv3-on-ubuntu/
