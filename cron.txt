@@ -1,0 +1,10 @@
+SHELL=/bin/bash
+
+*/6 * * * * /usr/bin/python3.5 /home/tapway-office/darkflow-master/captureframe.py && cd .. && cd ~ && cd /home/tapway-office/darkflow-master && /usr/bin/python3.5 /home/tapway-office/darkflow-master/predictidham.py >> /home/tapway-office/darkflow-master/versionaws.txt 2>&1
+
+#*/6 * * * * cd .. && cd ~ && cd /home/tapway-office/darkflow-master && /usr/bin/python3.5 /home/tapway-office/darkflow-master/predictidham.py >> /home/tapway-office/darkflow-master/versionaws.txt 2>&1
+
+*/7 * * * * AWS_ACCESS_KEY_ID=XXXX AWS_SECRET_ACCESS_KEY=XXXXX aws s3 mv /home/tapway-office/darkflow-master/frames-car s3://tapway-vint-courtyard/frames-test --recursive >> /home/tapway-office/darkflow-master/versionaws1.txt 2>&1
+
+*/9 * * * *  rm -rf /home/tapway-office/darkflow-master/frames-idham/*
+
