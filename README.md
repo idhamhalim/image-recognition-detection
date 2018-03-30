@@ -23,6 +23,8 @@ tensorflow 1.0+ `sudo pip install tensorflow`
 
 numpy `sudo pip install numpy`
 
+cython `sudo pip install cython`
+
 opencv3 
 
 # Install OpenCV3
@@ -165,7 +167,36 @@ download the weights the same as the model you want to use
 
 if you want to use `tiny-yolo-voc model`, then download `tiny-yolo-voc weights` etc..
 
+## Getting started
 
+You can choose one of the following three ways to get started with darkflow.
+
+Just build the Cython extensions in place. NOTE: If installing this way you will have to use ./flow in the cloned darkflow directory instead of flow as darkflow is not installed globally.
+
+1. `python3 setup.py build_ext --inplace`
+
+Let pip install darkflow globally in dev mode (still globally accessible, but changes to the code immediately take effect)
+
+2. `pip install -e` .
+
+Install with pip globally
+
+3. `pip install .`
+
+ !!! I recommend doing number 3 , then number 1
+ 
+ ## Capturing frames
+ 
+ You can  start capture frames from live feed or any url using the script. To do just that, navigate to your darkflow folder
+ and type 
+ 
+ `python framecapture.py`
+ 
+ ## Processing saved frames to darkflow
+ 
+ You can filter frames with car from a specified folder and output it to another folder. To try it, type
+ 
+ `python predictidham.py`
 
 # References
 
