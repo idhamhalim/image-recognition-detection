@@ -191,6 +191,12 @@ Install with pip globally
 
  !!! I recommend doing number 3 , then number 1
  
+ ## Testing your darkflow installation
+ 
+ you can check by typing the flow help menu
+ 
+ `flow --h` or `./flow --h`
+ 
  ## Capturing frames
  
  You can  start capture frames from live feed or any url using the script. To do just that, navigate to your darkflow folder
