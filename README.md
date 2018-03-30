@@ -15,7 +15,11 @@ git clone the repo
 
 `git clone https://github.com/thtrieu/darkflow`
 
+& add the `predictidham.py` and `captureframe.py` python scripts to your darkflow folder
+
 oor just clone this repo !!!
+
+
 
 # Install Dependencies for Darkflow
 
