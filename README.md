@@ -80,6 +80,77 @@ opencv3
 
 `sudo -H pip3 install -U pip numpy`
 
+5. Download OpenCV and OpenCV_contrib
+
+5.a) Download OpenCV from Github
+
+`git clone https://github.com/opencv/opencv.git`
+
+`cd opencv`
+
+`git checkout 3.3.1` <- you can change to latest version
+
+`cd ..`
+
+5.b) Download OpenCV_contrib from Github
+
+`git clone https://github.com/opencv/opencv_contrib.git`
+
+`cd opencv_contrib`
+
+`git checkout 3.3.1` <- you can change to latest version
+
+`cd ..`
+
+6.a) Make directory
+
+`cd opencv`
+
+`mkdir build`
+
+`cd build`
+
+6.b) Run cmake
+
+
+`cmake -D CMAKE_BUILD_TYPE=RELEASE \
+
+      -D CMAKE_INSTALL_PREFIX=/usr/local \
+      
+      -D INSTALL_C_EXAMPLES=ON \
+      
+      -D INSTALL_PYTHON_EXAMPLES=ON \
+      
+      -D WITH_TBB=ON \
+      
+      -D WITH_V4L=ON \
+      
+      -D WITH_QT=ON \
+      
+      -D WITH_OPENGL=ON \
+      
+      -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+      
+      -D BUILD_EXAMPLES=ON ..`
+      
+      
+     
+     
+     
+     
+     
+     # find out number of CPU cores in your machine
+`nproc`
+# substitute 4 by output of nproc
+`make -j4`
+
+`sudo make install`
+
+`sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'`
+
+`sudo ldconfig`
+      
+
 
 # Download YOLO Weights
 
