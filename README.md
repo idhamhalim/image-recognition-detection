@@ -1,13 +1,13 @@
 # image-recognition-detection
 my attempt at automatic car frame recognition
 
-# Update 
+## Update 
 
 `sudo apt-get update`
 
 `sudo apt-get upgrade`
 
-# Install Darkflow
+## Install Darkflow
 
 the link to the repo is here : https://github.com/thtrieu/darkflow
 
@@ -21,7 +21,7 @@ oor just clone this repo !!!
 
 
 
-# Install Dependencies for Darkflow
+## Install Dependencies for Darkflow
 
 python3 `sudo pip install python3`
 
@@ -33,9 +33,9 @@ cython `sudo pip install cython`
 
 opencv3 
 
-# Install OpenCV3
+## Install OpenCV3
 
-1. Update Packages
+### 1. Update Packages
 
 
 `sudo apt-get update`
@@ -43,7 +43,7 @@ opencv3
 `sudo apt-get upgrade`
 
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 `sudo apt-get install build-essential checkinstall cmake pkg-config yasm`
 
@@ -72,7 +72,7 @@ opencv3
 
 `sudo apt-get install x264 v4l-utils`
 
-3. Install optional dependencies
+### 3. Install optional dependencies
 
 `sudo apt-get install libprotobuf-dev protobuf-compiler`
 
@@ -80,7 +80,7 @@ opencv3
 
 `sudo apt-get install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen`
 
-4. Install Python Libraries 
+### 4. Install Python Libraries 
 
 `sudo apt-get install python-dev python-pip python3-dev python3-pip`
 
@@ -88,9 +88,9 @@ opencv3
 
 `sudo -H pip3 install -U pip numpy`
 
-5. Download OpenCV and OpenCV_contrib
+### 5. Download OpenCV and OpenCV_contrib
 
-5.a) Download OpenCV from Github
+#### 5.a) Download OpenCV from Github
 
 `git clone https://github.com/opencv/opencv.git`
 
@@ -100,7 +100,7 @@ opencv3
 
 `cd ..`
 
-5.b) Download OpenCV_contrib from Github
+#### 5.b) Download OpenCV_contrib from Github
 
 `git clone https://github.com/opencv/opencv_contrib.git`
 
@@ -110,7 +110,7 @@ opencv3
 
 `cd ..`
 
-6.a) Make directory
+#### 6.a) Make directory
 
 `cd opencv`
 
@@ -118,7 +118,7 @@ opencv3
 
 `cd build`
 
-6.b) Run cmake
+#### 6.b) Run cmake
 
 
 `cmake -D CMAKE_BUILD_TYPE=RELEASE \`
@@ -146,7 +146,7 @@ opencv3
      
      
      
-6.c) Compile & Install    
+#### 6.c) Compile & Install    
 
 find out number of CPU cores in your machine
 
@@ -165,7 +165,7 @@ substitute 4 by output of nproc
       
 
 
-# Download YOLO Weights
+## Download YOLO Weights
 
 the link to yolo weights file : https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU
 
@@ -205,9 +205,9 @@ Install with pip globally
  `python predictidham.py`
 
 
-# Advanced usage
+## Advanced usage
 
-## Automating the process
+### Automating the process
 
 set up crontab for automatic frame capture and filter frame with car by copy the content of crontab.txt and append it to your cron job.
 
@@ -217,9 +217,12 @@ set up crontab for automatic frame capture and filter frame with car by copy the
 ### Setting up Python PATH
 
 append the darkflow packages to the python path
+
 `export PYTHONPATH:/your/path/to/darkflow/packages`
 
-for example mine is : `export PYTHONPATH: /usr/local/lib/python3.5/dist-packages/darkflow`
+for example mine is : 
+
+`export PYTHONPATH: /usr/local/lib/python3.5/dist-packages/darkflow`
 
 you can check where darkflow packages is by trying to uninstall darkflow, but dont uninstall it
 
