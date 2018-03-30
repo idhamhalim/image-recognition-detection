@@ -217,7 +217,7 @@ Install with pip globally
 
 ### Automating the process
 
-set up crontab for automatic frame capture and filter frame with car by copy the content of crontab.txt and append it to your cron job.
+set up crontab for automatic frame capture and filter frame with car 
 
 `sudo crontab -e` --> to configure cronjob
 
