@@ -228,6 +228,7 @@ append the darkflow packages to the python path
 
 `export PYTHONPATH:/your/path/to/darkflow/packages`
 
+
 for example mine is : 
 
 `export PYTHONPATH: /usr/local/lib/python3.5/dist-packages/darkflow`
@@ -248,3 +249,8 @@ https://github.com/thtrieu/darkflow
 
 3. Thanks to the author for process of installing OpenCV on Ubuntu
 https://www.learnopencv.com/install-opencv3-on-ubuntu/
+
+4. Setting up PYTHONPATH here to include darkflow packages
+https://scipher.wordpress.com/2010/05/10/setting-your-pythonpath-environment-variable-linuxunixosx/
+
+5.
