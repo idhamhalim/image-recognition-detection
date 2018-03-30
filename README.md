@@ -5,13 +5,17 @@ my attempt at automatic car frame recognition
 # Install Darkflow
 
 the link to the repo is here : https://github.com/thtrieu/darkflow
+
 git clone the repo
 
 # Install Dependencies for Darkflow
 
 python3 
+
 tensorflow 1.0+
+
 numpy
+
 opencv3
 
 # Download YOLO Weights
