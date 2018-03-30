@@ -1,6 +1,10 @@
 # image-recognition-detection
 my attempt at automatic car frame recognition
 
+# Update 
+
+`sudo apt-get update`
+`sudo apt-get upgrade`
 
 # Install Darkflow
 
@@ -12,13 +16,20 @@ git clone the repo
 
 # Install Dependencies for Darkflow
 
-python3 
+python3 `sudo pip install python3`
 
-tensorflow 1.0+
+tensorflow 1.0+ `sudo pip install tensorflow`
 
-numpy
+numpy `sudo pip install numpy`
 
-opencv3
+opencv3 
+
+# Install OpenCV3
+
+Update Packages
+
+`sudo apt-get update`
+`sudo apt-get upgrade`
 
 # Download YOLO Weights
 
