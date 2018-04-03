@@ -31,7 +31,7 @@ numpy `sudo pip install numpy`
 
 cython `sudo pip install cython`
 
-opencv3 
+opencv3 --> Look at wiki !
 
      
       
