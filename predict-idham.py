@@ -8,9 +8,9 @@ import shutil
 
 #setting path of folder with input images,
 #can be configured for your own path/folder
-mypath='/home/tapway-office/darkflow-master/frames-idham'
-source = os.listdir("/home/tapway-office/darkflow-master/")
-destination = "/home/tapway-office/darkflow-master/frames-car/"
+mypath='/home/darkflow-master/frames-idham'
+source = os.listdir("/home/darkflow-master/")
+destination = "/home/darkflow-master/frames-car/"
 
 for files in source:
     if files.endswith(".jpg"):
