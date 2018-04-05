@@ -113,7 +113,7 @@ you can check where darkflow packages is by trying to uninstall darkflow, but do
 
 # References
 
-1. Thanks to the original author of darkflow and YOLO
+1. Thanks to the original author of darknet and YOLO
 https://pjreddie.com/
 
 2. Thanks for the translated darkflow 
