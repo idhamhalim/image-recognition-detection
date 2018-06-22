@@ -25,11 +25,7 @@ oor just clone this repo !!!
 
 python3 `sudo pip install python3`
 
-tensorflow 1.0+ `sudo pip install tensorflow`
-
-numpy `sudo pip install numpy`
-
-cython `sudo pip install cython`
+run pip install -r dependencies.txt - this will install tensorflow, numpy & cython which are needed for this project.
 
 opencv3 --> Look at wiki !
 
