@@ -3,7 +3,7 @@ my attempt at automatic car frame recognition
 
 
 
-<a href="https://imgflip.com/gif/2d6ymj"><img src="https://i.imgflip.com/2d6ymj.gif" title="made at imgflip.com"/></a>
+<p align="center"> <a href="https://imgflip.com/gif/2d6ymj"><img src="https://i.imgflip.com/2d6ymj.gif" title="made at imgflip.com"/></a>
 
 ## Update 
 
