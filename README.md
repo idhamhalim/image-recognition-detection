@@ -3,9 +3,9 @@ my attempt at automatic car frame recognition
 
 
 
-<p align="center"> <a href="https://imgflip.com/gif/2d6ymj"><img src="https://i.imgflip.com/2d6ymj.gif" title=""/></a>
+<p align="center"> <a href="https://imgflip.com/gif/2d6ymj"><img src="https://i.imgflip.com/2d6ymj.gif" title="tiny-yolo-road"/></a>
      
-<p align="center"> <a href="//imgur.com/cqVYfHS"><img src="//s.imgur.com/min/embed.js" charset="utf-8"></a>
+<p align="center"> <a href="https://imgflip.com/gif/2d6z42"><img src="https://i.imgflip.com/2d6z42.gif" title="yolo-road"/></a>
 
 ## Update 
 
