@@ -11,6 +11,10 @@ Using yolo-model, longer processing time, more objects detected
 
 <p align="center"> <a href="https://imgflip.com/gif/2d6z42"><img src="https://i.imgflip.com/2d6z42.gif" title="yolo-road"/ width="720" height="360" border="10" /></a>> </p>
 
+or check the full demo here:
+
+https://www.youtube.com/watch?v=MrcocpcbRHQ
+
 ## Update 
 
 `sudo apt-get update`
