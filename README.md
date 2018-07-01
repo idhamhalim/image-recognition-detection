@@ -8,6 +8,7 @@ Using-tiny-yolo model , shorter processing time , less accurate
 
 
 Using yolo-model, longer processing time, more objects detected
+
 <p align="center"> <a href="https://imgflip.com/gif/2d6z42"><img src="https://i.imgflip.com/2d6z42.gif" title="yolo-road"/></p>
 
 ## Update 
