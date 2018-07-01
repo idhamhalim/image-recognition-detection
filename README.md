@@ -4,12 +4,12 @@ my attempt at automatic car frame recognition
 
 Using-tiny-yolo model , shorter processing time , less accurate
 
-<p align="center"> <a href="https://imgflip.com/gif/2d6ymj"><img src="https://i.imgflip.com/2d6ymj.gif" title="tiny-yolo-road"/></p>
+<p align="center"> <a href="https://imgflip.com/gif/2d6ymj"><img src="https://i.imgflip.com/2d6ymj.gif" title="tiny-yolo-road"/width="480" height="360" border="10" /></a>> </p>
 
 
 Using yolo-model, longer processing time, more objects detected
 
-<p align="center"> <a href="https://imgflip.com/gif/2d6z42"><img src="https://i.imgflip.com/2d6z42.gif" title="yolo-road"/></p>
+<p align="center"> <a href="https://imgflip.com/gif/2d6z42"><img src="https://i.imgflip.com/2d6z42.gif" title="yolo-road"/ width="240" height="180" border="10" /></a>> </p>
 
 ## Update 
 
